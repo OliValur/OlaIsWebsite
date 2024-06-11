@@ -1191,3 +1191,4 @@ C:\Users\oliva\Documents\projects\OlaIs\OlaIs.Client\bin\Debug\net8.0\wwwroot\_f
 C:\Users\oliva\Documents\projects\OlaIs\OlaIs.Client\bin\Debug\net8.0\System.Data.SqlClient.dll
 C:\Users\oliva\Documents\projects\OlaIs\OlaIs.Client\obj\Debug\net8.0\webcil\System.Data.SqlClient.wasm
 C:\Users\oliva\Documents\projects\OlaIs\OlaIs.Client\obj\Debug\net8.0\compressed\acuq5931mj.gz
+C:\Users\oliva\Documents\projects\OlaIs\OlaIs.Client\obj\Debug\net8.0\OlaIs.Client.sourcelink.json
