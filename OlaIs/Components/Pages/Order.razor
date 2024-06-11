@@ -1,0 +1,43 @@
+﻿@page "/order"
+@attribute [StreamRendering]
+
+
+@using OlaIs.Data.Services;
+@using OlaIs.Models;
+@inject IceCreamService IceCreamService
+@inject ProductsService ProductsService
+
+
+<PageTitle>Panta ís</PageTitle>
+
+<h1>Hér er hægt að panta ís</h1>
+
+<div class="d-flex justify-content-around align-items-center">
+    @foreach (var product in products)
+    {
+        <div>
+            @product.Title
+
+        </div>
+        <div>
+            <img src="images/@product.ImageUrl" class="img-thumbnail" style="max-width:40%" alt="...">
+        </div>
+    }
+</div>
+
+
+@code {
+
+    List<IceCreamTypeModel> iceCreams = new List<IceCreamTypeModel>();
+    List<ProductsModel> products = new List<ProductsModel>();
+    private int selectedProductId;
+    private ProductsModel selectedProduct;
+
+    protected override async Task OnInitializedAsync()
+    {
+        iceCreams = await IceCreamService.GetIceCreams();
+        products = await ProductsService.GetProducts();
+
+        Console.WriteLine(databaseConnectionString);
+    }
+}

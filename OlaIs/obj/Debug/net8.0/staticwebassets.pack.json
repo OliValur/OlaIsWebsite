@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\oliva\\Documents\\projects\\OlaIs\\OlaIs\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OlaIs.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OlaIs.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\oliva\\Documents\\projects\\OlaIs\\OlaIs\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\oliva\\Documents\\projects\\OlaIs\\OlaIs\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oliva\\Documents\\projects\\OlaIs\\OlaIs\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oliva\\Documents\\projects\\OlaIs\\OlaIs\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\oliva\\Documents\\projects\\OlaIs\\OlaIs\\wwwroot\\images\\bragdarefur.jpeg",
+      "PackagePath": "staticwebassets\\images\\bragdarefur.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\oliva\\Documents\\projects\\OlaIs\\OlaIs\\wwwroot\\images\\isiboxi.jpeg",
+      "PackagePath": "staticwebassets\\images\\isiboxi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\oliva\\Documents\\projects\\OlaIs\\OlaIs\\wwwroot\\images\\sjeik.jpeg",
+      "PackagePath": "staticwebassets\\images\\sjeik.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OlaIs.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OlaIs.props",
+      "PackagePath": "build\\OlaIs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OlaIs.props",
+      "PackagePath": "buildMultiTargeting\\OlaIs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OlaIs.props",
+      "PackagePath": "buildTransitive\\OlaIs.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
